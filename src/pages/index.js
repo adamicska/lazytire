@@ -184,7 +184,7 @@ export default function IndexPage() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <StaticImage
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="../images/header_native_app_coding.jpg"
+            src="https://source.unsplash.com/rMyel7micAg"
             alt="native app developer"
           />
         </div>
