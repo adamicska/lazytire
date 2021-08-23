@@ -49,13 +49,13 @@ export default function IndexPage() {
                   <div className="flex items-center justify-between flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex items-center w-full md:w-auto">
                       <PaperAirplaneIcon
-                        className="h-8 w-8 text-indigo-600"
+                        className="h-8 w-8 text-blue-600"
                         aria-hidden="true"
                       />
-                      <strong className="text-gray-900 ">damicska</strong>
+                      <strong className="text-gray-900 ">Logo</strong>
                     </div>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -71,18 +71,6 @@ export default function IndexPage() {
                         {item.name}
                       </a>
                     ))}
-                    <a
-                      href="https://github.com/adamicska"
-                      className="p-1 rounded-full text-gray-500 hover:text-gray-900 focus:outline-none"
-                    >
-                      <FontAwesomeIcon icon={faGithubAlt} size="lg" />
-                    </a>
-                    <a
-                      href="https://stackoverflow.com/users/11724751/adamicska"
-                      className="p-1 rounded-full text-gray-500 hover:text-gray-900 focus:outline-none"
-                    >
-                      <FontAwesomeIcon icon={faStackOverflow} size="lg" />
-                    </a>
                     <a
                       href="https://t.me/adamicska"
                       className="p-1 rounded-full text-gray-500 hover:text-gray-900 focus:outline-none"
@@ -110,12 +98,12 @@ export default function IndexPage() {
                     <div className="px-5 pt-4 flex items-center justify-between">
                       <div>
                         <PaperAirplaneIcon
-                          className="h-8 w-8 text-indigo-600"
+                          className="h-8 w-8 text-blue-600"
                           aria-hidden="true"
                         />
                       </div>
                       <div className="-mr-2">
-                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                           <span className="sr-only">Close main menu</span>
                           <XIcon className="h-6 w-6" aria-hidden="true" />
                         </Popover.Button>
@@ -157,34 +145,33 @@ export default function IndexPage() {
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">Hi, I'm Andrew!</span>
+                  <span className="block xl:inline">Welcome, we are</span>
                 </h1>
                 <div className="flex flex-row">
                   <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                    <span className="block text-indigo-600 xl:inline">
-                      a full-stack dev
+                    <span className="block text-blue-600 xl:inline">
+                      Lazy Tire.
                     </span>
                   </h1>
                 </div>
 
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Freelance coder #Javascript and #Python. My favorite
-                  frameworks/librairies are #React and #Django. I am also a fan
-                  of #TailwindCSS.
+                  A software development company that makes custom solutions for
+                  your Business.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
                     <a
-                      href="https://www.upwork.com/o/profiles/users/~01479af0bb7431cac2/"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                      href="#"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                     >
-                      Hire me
+                      Get in touch
                     </a>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <Link
                       to="#about"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                     >
                       Learn more
                     </Link>
@@ -203,7 +190,7 @@ export default function IndexPage() {
         </div>
       </div>
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Cta />
     </Layout>
   )
