@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `The Portfolio of Andrés Adamicska`,
-    description: `Juan Andrés Adamicska, professional App developer.`,
+    title: `Lazy Tire LLC`,
+    description: `Professional App development.`,
     author: `@adamicska`,
-    siteUrl: `https://adamicska.dev/`,
+    siteUrl: `https://lazytire.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

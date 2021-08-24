@@ -27,7 +27,7 @@ const navigation = [
 export default function IndexPage() {
   return (
     <Layout>
-      <Seo title="Bricklayer | App Development" />
+      <Seo title="Lazy Tire | App Development" />
       <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -52,7 +52,7 @@ export default function IndexPage() {
                         className="h-8 w-8 text-indigo-600"
                         aria-hidden="true"
                       />
-                      <strong className="text-gray-900 ">Bricklayer</strong>
+                      <strong className="text-gray-900 ">Lazy Tire</strong>
                     </div>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

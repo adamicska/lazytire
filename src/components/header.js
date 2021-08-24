@@ -44,7 +44,7 @@ export default function Header() {
                     className="h-8 w-8 text-indigo-500"
                     aria-hidden="true"
                   />
-                  <strong className="text-white mr-9">Bricklayer</strong>
+                  <strong className="text-white mr-9">Lazy Tire</strong>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
