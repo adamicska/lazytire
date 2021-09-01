@@ -17,7 +17,10 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 
 import About from "../components/about"
 import Cta from "../components/cta"
-import Projects from "../components/projects"
+// import Projects from "../components/projects"
+import Infopic from "../components/infopic"
+import Tech from "../components/tech"
+import Infopic2 from "../components/infopic2"
 
 const navigation = [
   { name: "About", href: "#about", current: false },
@@ -33,7 +36,8 @@ export default function IndexPage() {
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <svg
               className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
-              fill="currentColor"
+              // fill="rgb(249, 250, 251)"
+              fill="white"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
               aria-hidden="true"
@@ -184,12 +188,15 @@ export default function IndexPage() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <StaticImage
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="https://source.unsplash.com/QckxruozjRg"
+            src="https://source.unsplash.com/IgUR1iX0mqM"
             alt="native app developer"
           />
         </div>
       </div>
       <About />
+      <Infopic />
+      <Tech />
+      <Infopic2 />
       {/* <Projects /> */}
       <Cta />
     </Layout>

@@ -1,68 +1,53 @@
 import * as React from "react"
 
 import {
-  TableIcon,
+  SupportIcon,
+  CursorClickIcon,
+  DeviceMobileIcon,
   DatabaseIcon,
-  BeakerIcon,
-  EmojiHappyIcon,
-  CurrencyDollarIcon,
-  AcademicCapIcon,
 } from "@heroicons/react/outline"
 
 const features = [
   {
-    name: "Know your business",
+    name: "Front-end development",
     description:
-      "We get to know your company through an immersive process during which we learn how you do business, get to know the processes and actors as well as your business needs. We put together a data flow and process diagram of your company.",
-    icon: AcademicCapIcon,
+      "We develop the user interface with state of the art tech such as React.js, or database front-ends with Microsoft Access.",
+    icon: CursorClickIcon,
   },
   {
-    name: "User friendly",
+    name: "Back-end development",
     description:
-      "Our systems are user centric but we also strive to make balanced applications that guarantee data integrity as well as user needs.",
-    icon: EmojiHappyIcon,
-  },
-  {
-    name: "Tailored to your needs",
-    description:
-      "We develop systems from small companies to enterprise level, for specific needs to company wide.",
-    icon: BeakerIcon,
-  },
-  {
-    name: "Integration",
-    description:
-      "We can integrate with existing software being used by customer. Import and export data.",
-    icon: TableIcon,
-  },
-  {
-    name: "Native or cloud",
-    description:
-      "Our systems can be based on the cloud, on your premise server, on your desktop PC or mobile phone.",
+      "We develop database back-ends in SQL, Oracle MySql and PostgreSQL",
     icon: DatabaseIcon,
   },
   {
-    name: "Cost effective",
-    description: "Our services are affordable, our systems pays for itself.",
-    icon: CurrencyDollarIcon,
+    name: "Native apps",
+    description:
+      "Using React Native, we deliver hybrid native apps both for Androind and iOS.",
+    icon: DeviceMobileIcon,
+  },
+  {
+    name: "Top tier support",
+    description:
+      "We offer unparalleled customer support, remote support and maintenance plans; as well as online guides and how to instructions.",
+    icon: SupportIcon,
   },
 ]
 
-export default function About() {
+export default function Tech() {
   return (
     <div id="about" className="my-6 py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-            Skills
+            Tech
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            What we do
+            What we use
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            We develop custom software solutions that are tailored to your
-            business needs and processes. Our systems are affordable, user
-            friendly, intuitive and flexible so they can adapt as your business
-            needs change.
+            Our systems can be based on the cloud, on your premise server, on
+            your desktop PC on via mobile apps.
           </p>
         </div>
 

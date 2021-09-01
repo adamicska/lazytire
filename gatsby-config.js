@@ -3,7 +3,7 @@ module.exports = {
     title: `Lazy Tire LLC`,
     description: `Professional App development.`,
     author: `@adamicska`,
-    siteUrl: `https://lazytire.com/`,
+    siteUrl: `https://lazytireco.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
