@@ -23,8 +23,8 @@ import Tech from "../components/tech"
 import Infopic2 from "../components/infopic2"
 
 const navigation = [
-  { name: "About", href: "#about", current: false },
-  { name: "Projects", href: "#projects", current: false },
+  { name: "The Process", href: "#about", current: false },
+  { name: "The Technical Stuff", href: "#tech", current: false },
 ]
 
 export default function IndexPage() {
@@ -79,7 +79,8 @@ export default function IndexPage() {
                       href="https://t.me/adamicska"
                       className="p-1 rounded-full text-gray-500 hover:text-gray-900 focus:outline-none"
                     >
-                      <FontAwesomeIcon icon={faPaperPlane} size="lg" />
+                      Contact us
+                      <FontAwesomeIcon icon={faPaperPlane} className="ml-1" />
                     </a>
                   </div>
                 </nav>
